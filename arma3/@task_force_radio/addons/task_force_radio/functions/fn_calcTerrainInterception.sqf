@@ -39,6 +39,7 @@ if (terrainIntersectASL[_p1, _p2]) then {
 		};
 		_m = (_l + _r) / 2.0;
 	};
-	_result = _m;
+	// _result = _m;
+	_result = 0; // workaround terrain interception
 };
 _result
